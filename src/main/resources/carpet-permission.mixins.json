@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.minearchive.carpetPermission.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinPlayerCommand",
+    "MixinSettingsManager"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
